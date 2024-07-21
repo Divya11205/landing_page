@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 0 ;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #707ae9;
+    color: rgb(11, 11, 11);
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+}
+
+#hero {
+    background: url('C:/Users/divya/OneDrive/Pictures/hospital.jpg') no-repeat center center/cover;
+    color: rgb(11, 10, 10);
+    text-align: center;
+    padding: 210px 0;
+}
+
+#hero .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#about{
+    background: #d1c6f1;
+    color: rgb(15, 14, 14);
+    /* background: #f9f9f9; */
+    padding: 190px 0;
+}
+/*  */
+#services{
+    background: #6a99df;
+    color: whitesmoke;
+} 
+
+#services .h2{
+    color: black;
+}
+
+#contact{
+    background: #0dc3d4;
+    color: black;
+}
+
+#services .service-item {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
